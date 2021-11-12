@@ -14,10 +14,18 @@ dataset/images/
 dataset/masks/
 ```
 
+## Dataset
+- You can run with our model by placing it here:
+
+```
+libs/model/
+```
+
 ## HRNet
 ### Prerequisites
 1. Install requirements ``` pip install -r requirement.txt ```
 2. ``` pip install tensorflow-gpu==2.4.1 ``` (For running with GPU)
+3. Change the model configuration depends on your needs in ```libs/config.py```
 
 
 ### Training
@@ -43,7 +51,7 @@ First, you should go to the folder ResNet and follow the instruction below
 
 ### Training
 ```
-python resnet/train.py train
+python resnet/training.py
 ```
 ### Evaluation
 ```
