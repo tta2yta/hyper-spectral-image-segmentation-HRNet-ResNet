@@ -1,9 +1,8 @@
-# IDP2021-HSI-Segmentation-by-HRNet-and-ResNet
+# hyper-spectral-image-segmentation-HRNet-ResNet
 
 Coursework project: Industrial Project - [UEF, Finland](https://www.uef.fi/en/unit/school-of-computing)
 
-- Project owners: [Thong Nguyen](https://github.com/ThongNguyen551), [Borhan Sumon](https://github.com/Borhan-Uddin), [Agha Danish](https://github.com/AghaDanish98), [Gemal](https://github.com/JemalHamid)
-- This project aims to implement segmentations algorithm for Medical Hyperspectal Imaging (HSI), then implement the GUI for visualization. The DL methods used are HRNet and ResNet.
+Spectral imaging with help of digital image processing techniques such as Image segmentation has been playing a significant role in solving real world complex problems in numerous fields. Specifically in medical imaging, the visualization plays an important role while diagnosing. Spectral imaging allows us to analyze some extremely small yet very important tissues present in human body while image segmentation algorithms helps us to efficiently classify those spectral information into useful information. In this work, we aim to implement two state-of-the-art Deep Learning methods ResNet and HRNet to do semantic segmentation on given spectral dataset of human placenta tissue. Additionally, we train the model with two main options: full 38 bands of spectral images and 3 bands of spectral images after applying PCA. By looking at our qualitative results, we can say that our models have outperformed the previous groups’ models.
  
 ## Dataset
 - Place your dataset as follow:
