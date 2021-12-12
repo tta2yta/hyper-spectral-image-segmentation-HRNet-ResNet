@@ -1,7 +1,5 @@
 # hyper-spectral-image-segmentation-HRNet-ResNet
 
-Coursework project: Industrial Project - [UEF, Finland](https://www.uef.fi/en/unit/school-of-computing)
-
 Spectral imaging with help of digital image processing techniques such as Image segmentation has been playing a significant role in solving real world complex problems in numerous fields. Specifically in medical imaging, the visualization plays an important role while diagnosing. Spectral imaging allows us to analyze some extremely small yet very important tissues present in human body while image segmentation algorithms helps us to efficiently classify those spectral information into useful information. In this work, we aim to implement two state-of-the-art Deep Learning methods ResNet and HRNet to do semantic segmentation on given spectral dataset of human placenta tissue. Additionally, we train the model with two main options: full 38 bands of spectral images and 3 bands of spectral images after applying PCA. By looking at our qualitative results, we can say that our models have outperformed the previous groups’ models.
  
 ## Dataset
